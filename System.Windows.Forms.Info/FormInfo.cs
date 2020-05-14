@@ -74,7 +74,7 @@
 			ImageCollection.RegisterType<Label>("Label");
 			ImageCollection.RegisterType<ProgressBar>("ProgressBar");
 			ImageCollection.RegisterType<DateTimePicker>("DateTimePicker");
-			ImageCollection.RegisterType<DataGrid>("DataGrid");
+			ImageCollection.RegisterType<DataGridView>("DataGridView");
 			ImageCollection.RegisterType<UserControl>("UserControl");
 			ImageCollection.RegisterType<Splitter>("Splitter");
 			ImageCollection.RegisterType<ScrollableControl>("ScrollableControl");

@@ -81,7 +81,7 @@ namespace System.Windows.Forms.Info
 			if (!DesignMode && Environment.OSVersion.Platform == PlatformID.Win32NT && Environment.OSVersion.Version.Major >= 6)
 				SetWindowTheme(outlineTreeView.Handle, "explorer", null);
 
-			propertyGrid.PropertyTabs.RemoveTabType(typeof(PropertiesTab));
+			//propertyGrid.PropertyTabs.RemoveTabType(typeof(PropertiesTab));
 			propertyGrid.PropertyTabs.AddTabType(typeof(ExtendedPropertiesTab), PropertyTabScope.Static);
 
 			Text = $"Properties: {parentForm.Name}";
